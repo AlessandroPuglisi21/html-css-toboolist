@@ -10,10 +10,78 @@
     padding: 15px;
     margin: 0 auto;
     background-color:white;
+    margin-bottom: 50px;
 }
 img,.title{
     vertical-align: middle;
 }
 body{
     background-color:beige;
+}
+.button{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.one{
+    background-color: rgb(9, 112, 196);
+}
+.two{
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    border: solid gray 1px;
+    
+}
+main{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 50px;
+}
+html{
+    font-family: "Lato", sans-serif;
+}
+h1{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.editorial{
+    background-color: rgb(121, 121, 212);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+.goals{
+    background-color: rgb(186, 101, 212);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+.recruting{
+    background-color: rgb(143, 182, 127);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+.mobile{
+    background-color: rgb(73, 216, 216);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+.website{
+    background-color: rgb(192, 190, 92);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+.sales{
+    background-color: rgb(196, 100, 100);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+div{
+    margin-bottom: 10px;
+    font-weight: bold
 }
