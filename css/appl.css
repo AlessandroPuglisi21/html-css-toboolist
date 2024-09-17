@@ -5,18 +5,20 @@
 }
 .title{
     font-size: 34px;
+    font-weight: bold;
 }
 .containerlogo{
     padding: 15px;
     margin: 0 auto;
-    background-color:white;
+    background-color: white;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 img,.title{
     vertical-align: middle;
 }
 body{
-    background-color:beige;
+    background-color:rgb(238, 225, 225);
 }
 .button{
     font-size: 20px;
@@ -25,11 +27,17 @@ body{
 .one{
     background-color: rgb(9, 112, 196);
     color: white;
+    font-size: small;
+    padding: 9px;
+    border-color:rgb(9, 112, 196);
 }
 .two{
     background-color: rgb(255, 255, 255);
     color: grey;
-    border: solid gray 1px;
+    border-color: grey;
+    border-width: 1px;
+    font-size: small;
+    padding: 10px;
     
 }
 main{
@@ -41,7 +49,7 @@ main{
     margin-right: 200px;
 }
 html{
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 h1{
     font-size: 24px;
@@ -50,41 +58,58 @@ h1{
 }
 .editorial{
     background-color: rgb(121, 121, 212);
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 10px;
     color: white;
+    font-size: x-small;
+    padding: 8px;
 }
 .goals{
-    background-color: rgb(186, 101, 212);
-    border-radius: 5px;
+    background-color: rgb(100, 158, 126);
+    border-radius: 15px;
     margin: 10px;
     color: white;
+    font-size: x-small;
+    padding: 8px;
 }
 .recruting{
-    background-color: rgb(143, 182, 127);
-    border-radius: 5px;
+    background-color: rgb(211, 132, 87);
+    border-radius: 15px;
     margin: 10px;
     color: white;
+    font-size: x-small;
+    padding: 8px;
 }
 .mobile{
-    background-color: rgb(73, 216, 216);
-    border-radius: 5px;
+    background-color: rgb(152, 184, 101);
+    border-radius: 15px;
     margin: 10px;
     color: white;
+    font-size: x-small;
+    padding: 8px;
 }
 .website{
-    background-color: rgb(192, 190, 92);
-    border-radius: 5px;
+    background-color: rgb(184, 85, 85);
+    border-radius: 15px;
     margin: 10px;
     color: white;
+    font-size: x-small;
+    padding: 8px;
 }
 .sales{
-    background-color: rgb(196, 100, 100);
-    border-radius: 5px;
+    background-color: rgb(96, 173, 161);
+    border-radius: 15px;
     margin: 10px;
     color: white;
+    font-size: x-small;
+    padding: 8px;
 }
 div{
     margin-bottom: 10px;
     font-size: 18px;
+}
+.navbar{
+    margin-left: 50px;
+    vertical-align: sub;
+    font-weight: bold;
 }
